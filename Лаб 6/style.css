@@ -1,0 +1,96 @@
+body{
+    background-image: url(fon.jpeg);
+    background-size:cover;
+}
+.form1{
+    background-color: white;
+    width: 1170px;
+    height: 1400px;
+    line-height: 0px;
+    padding-top: 0px;
+}
+.form2{
+    background-image: url(12.jpg);
+    width: 1170px;
+    height: 40px;
+}
+table{
+    text-align: left;
+    font-size: 32px;
+    font-family: "Times New Roman",fantasy,serif;
+}
+td{
+    padding-right: 20px;
+    padding-left: 60px;
+}
+.photo1{
+    height: 420px;
+    width:   420px  ;
+    padding-top: 10px;
+}
+.text1{
+    color: #ad2a8d;
+    font-family: "Times New Roman,Bold",cursive,fantasy,italic;
+    text-align: right;
+}
+.td1{
+    text-align: right;
+    padding-top: 0px;
+}
+.text2{
+    color: black;
+    font-family: "Times New Roman,Bold",cursive,fantasy,italic;
+    text-align: left;
+    
+}
+.td2{
+    text-align: left;
+    align-content: center;
+    padding-top: 10px;
+    width: 3500px;
+    font-size: 28px;
+}
+.td3{
+    text-align: left;
+    padding-top: 140px;
+    padding-right: 600px;
+}
+.photos2{
+    width: 260.03px;
+    height: 370.07px;
+    left: 265px;
+    
+}
+.photos1{
+    width: 260.03px;
+    height: 370.07px;
+    bottom: -70px; 
+    left: 105px; 
+    z-index: 5; 
+    
+}
+.photos{
+    width: 260.03px;
+    height: 370.07px;
+    bottom: 250px; 
+    left: 235px; 
+    z-index: 7; 
+}
+
+  .img-wrap {
+    position: relative;
+  }
+  .img-wrap img {
+    position: absolute;
+  }
+.form21{
+    background-image: url(12.jpg);
+    width: 1170px;
+    height: 200px;
+}
+.phot{
+    width: 170px;
+    height: 170px;
+    padding-right: 70px;
+    padding-top: 20px;
+}
