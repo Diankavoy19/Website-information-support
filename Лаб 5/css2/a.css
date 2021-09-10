@@ -1,0 +1,11 @@
+@charset "utf-8";
+a{
+	color: blue;
+}
+a:active{
+	color: red;
+	
+}
+a:visited{
+	color:purple;
+}
