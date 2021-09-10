@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <title>Форма</title>
+   <meta name="keywords"; content="Ключові слова";/>
+   <meta name="descripyion"; content="Опис";/>
+   <meta name="author"; content="Автор";/>
+   <link href="table.css" rel="stylesheet" type="text/css"  />
+ </head>
+    <body onclick="ClickHandler()" style="height: 100vh">
+        <div class="container">
+        <center>
+        <form method=get action='https://www.google.com.ua' name="form"> 
+            <center>
+                <table>  
+                    <tr>
+                        <td >1. Ваше прізвище та ім'я:</td>
+                        <td> <input type="text" placeholder="Введіть прізвище та ім'я..." name="pib" size="30" maxlength ="30"></td> 
+                    </tr> 
+                    <tr>
+                        <td>2.Пароль </td> 
+                        <td> <input type="password" placeholder="Введіть пароль..."   name="pas" size="60" maxlength ="60"></td> 
+                    </tr>
+                    <tr>
+                        <td>3.Електронна почта</td>
+                        <td><input type="text" name="email" placeholder="Введіть email..." size="60" maxlength ="60" /></td>
+                    </tr> 
+                    <tr> 
+                        <td>4.Дата народження:</td>
+                        <td><input type="date" id="start" name="trip-start"  min="2020-11-27" max="2021-12-31"></td></tr>
+                    <tr> 
+                        <td>5.Стать </td> 
+                        <td> 
+                            <label><input type="radio" name="stat" checked value="Chol">  Чол. </label>
+                            <label><input type="radio" name="stat" value="Jin">  Жін.</label>
+                        </td> 
+                    </tr> 
+                    <tr> 
+                        <td>6.Фото </td> 
+                        <td> <input type="file" name="file"></td> 
+                    </tr> 
+                    <tr class="1">
+                        <td class="1">7.Який із вказаних безалкогольних напоїв Ви хочете замовити?</td>
+                    <td><table class="1t" border="2">
+                        <td class="1"><label><input type="checkbox" class="filled-in" checked="checked" />Молоко з медом та чорною редькою | Молочно-медовий настрій</label></td>
+                        <td><img align="center" src="1.jpg"></td>
+                        <tr>
+                            <td class="1"><label><input type="checkbox" class="filled-in" checked="checked" />Кава з медом та корицею</label></td>
+                            <td><img align="center" src="2.jpg"></td></tr>
+                        <tr>
+                            <td class="1"><label><input type="checkbox" class="filled-in" checked="checked" />Куркума з медом, лимоном та імбиром</label></td>
+                            <td><img align="center" src="3.jpg"></td></tr>
+                        <tr>
+                            <td class="1"><label><input type="checkbox" class="filled-in" checked="checked" />Молочний коктейль з полуницею й морозивом</label></td>
+                            <td><img align="center" src="4.jpg"></td></tr>
+                        </table>
+                </tr>
+                    <tr>
+                        <td>8. Яку кількість кожного обраного напою Ви хочете замовити?</td>
+                        <td> 
+                            <SELECT name="request"> 
+                                <OPTION value=0 selected>...</OPTION> 
+                                <OPTION value=1>1</OPTION> 
+                                <OPTION value=2>2</OPTION> 
+                                <OPTION value=3 >3</OPTION> 
+                                <OPTION value=3 >більше</OPTION>
+                            </SELECT>
+                        </td> </tr>
+                    <tr> 
+<td>9.Щоб зв'язатися з нами напишіть деталі замовлення та номер Вашого мобільного телефону:</td> 
+<td> 
+<TEXTAREA cols=62 rows=5></TEXTAREA>
+</td> 
+</tr> 
+
+
+                    <tr> 
+                        
+                        <td> 
+                            <input name="submit" type="submit" value="Відправити"> </td>
+                            <td><input name="reset" type="reset" value="Очистити">
+                        </td> 
+                </tr> 
+                </table> </center>
+            </form> </center></div>
+</body>
+</html>
