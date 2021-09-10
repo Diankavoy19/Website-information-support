@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Java1</title>
+     <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <h1 align="center"> Обчислення коренів квадратного рівняння</h1>
+    <br><br>
+    <center>
+    <form name="Form">
+        <table>
+            <tr>
+                <td>
+                    <input id="x1" style="text-align: center;" name="x1" type="text" class="button" value="0" ></td><td><p>x<sup>2</sup> +</p></td>
+                <td>
+                    <input id="x2" style="text-align: center;" name="x2" type="text" class="button" value="0" ></td><td><p>x + </p></td>
+                <td>
+                    <input id="x3" style="text-align: center;" name="x3" type="text" class="button" value="0"  ></td><td><p> = 0 </p></td>
+            <tr ><td colspan="5" align="center"><br><br><input  class="button1" type="button" onclick="Result(Form)" value="Обчислити"></td>
+                
+                <div id="res"></div></tr></table>
+
+      </form>
+  <script>
+    function Result(obj)
+    {
+      var D;
+      var x1;
+      var x2;
+      var x3;
+     
+      D =  Number(obj.x2.value) * Number(obj.x2.value) - 4.0 * Number(obj.x1.value) * Number(obj.x3.value);
+     
+
+      if(D > 0){
+      x1 = ((-1) * Number(obj.x2.value) - Math.sqrt(D)) / (2.0 *  Number(obj.x1.value));
+      x2 = ((-1) * Number(obj.x2.value) + Math.sqrt(D)) / (2.0 *  Number(obj.x1.value));
+      alert('Дискримінант='+ D + '  x1='+ x1 +'  x2='+ x2+ '  /Дискримінант більше 0')
+      }
+
+      else if (D == 0){
+       x3 = ((-1) * Number(obj.x2.value)) / (2.0 *  Number(obj.x1.value));
+       alert('Дискримінант = 0 x='+ x3)
+      }
+
+      else{
+        alert('Дискримінант менше 0')
+
+        
+      }
+    
+      
+      
+
+    }
+  </script>
+    </center>
+
+</body>
+</html>

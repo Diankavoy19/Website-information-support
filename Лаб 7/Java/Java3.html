@@ -1,0 +1,36 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Java3</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <center>
+        <br>
+        <form>
+  <div class="container">
+          <div  id="number">
+
+              </div>
+    </div>
+  <script>
+    const number = document.querySelector('#number');
+    let numberHtml = "<h3>Числа масиву, остача від ділення на 3, яких дорівнює нулю: <br /></h3>"
+    let arr =[]
+    for ( i = 0; i < 100; i++) {
+      arr.push(i+1) 
+    }
+    
+    for ( i = 0; i < 100; i++) {
+      if ((arr[i] % 3) === 0) {
+        numberHtml += arr[i] + ",         " 
+      } 
+    }
+    number.innerHTML = numberHtml
+
+  </script>
+        </form>
+    </center>
+</body>
+</html> 
